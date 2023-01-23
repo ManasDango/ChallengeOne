@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="Dango.jpg">
+	<title>Challenge 1</title>
+
+</head>
+
+<body>
+	<div class="container">
+
+		<div class="logo">
+			<img class="logoimg" src="Logo.png">
+			<h1 class="tittle">Encriptador de mensajes</h1>
+			
+		</div>
+
+		<div class="left">
+			<input id="inputtx" class="text-input" type="text" placeholder="Ingrese el texto aqui">
+			
+		</div>
+
+		<div class="right">
+			<img src="img.png" id="imgm">
+			<h1 id="text">Ningun mensaje fue encontrado</h1>
+			<textarea name="name" rows="8" cols="80" id="texta" readonly="readonly">Ingrese el texto que desee encriptar o desencriptar</textarea>
+			<button id="copiar" onclick="copy()">Copiar</button>
+			
+		</div>
+
+		<div class="left-button">
+
+			<div>
+			<button id="limpiar" onclick="limpiar()">Borrar</button>
+			<p>Solo minusculas y sin tildes</p>
+			</div>
+
+			<button type="button" id="encriptar" onclick="encriptar()">Encriptar</button>
+			<button id="desencriptar" onclick="desencriptar()">Desencriptar</button>
+			
+		</div>
+
+	</div>
+
+<script type="text/javascript" src="script.js"></script>
+
+<footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="Dango.ico" alt="Logo de Kewin">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE MI</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+            </div>
+
+            <div class="box">
+            	<div class="red-social">
+                <h2>SIGUEME</h2>
+                	<a href="https://www.linkedin.com/in/kewin-undefined-357200263/">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2021 <b>Dango Sama</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+
+</body>
+
+
+</html>
